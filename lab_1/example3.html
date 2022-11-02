@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Вивчаємо CSS</title>
+    <style>
+      body {
+        padding: 30px;
+        color: white;
+      }
+      h2 {
+        color: black;
+      }
+      nav {
+        background: -webkit-linear-gradient(
+          red,
+          blue
+        ); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(
+          red,
+          blue
+        ); /* Standard syntax (must be last) */
+        display: inline-block;
+      }
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        list-style-type: none;
+        padding: 10px;
+        border: 1px solid white;
+        display: inline-block;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      li:hover a {
+        /* додайте стилі тут */
+        color: red;
+        text-decoration: underline;
+      }
+
+      div {
+        border: 2px dashed blue;
+        background-color: yellow;
+        height: 100px;
+        box-sizing: border-box;
+        /* додайте стилі тут */
+        width: 20%;
+        display: inline-block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Текст</a></li>
+        <li><a href="#">Текст</a></li>
+        <li><a href="#">Текст</a></li>
+        <li><a href="#">Текст</a></li>
+        <li><a href="#">Текст</a></li>
+      </ul>
+    </nav>
+
+    <h2>Example 2</h2>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <h2>Example 3</h2>
+  </body>
+</html>
